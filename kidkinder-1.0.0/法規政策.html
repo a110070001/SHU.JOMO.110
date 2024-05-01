@@ -36,13 +36,13 @@
   </head>
 
   <body>
-    <!-- Navbar Start -->
-    <div class="container-fluid bg-light position-relative shadow">
+     <!-- Navbar Start -->
+     <div class="container-fluid bg-light position-relative shadow">
       <nav
         class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0 px-lg-5"
       >
         <a
-          href=""
+          href="index.html"
           class="navbar-brand font-weight-bold text-secondary"
           style="font-size: 50px"
         >
@@ -61,16 +61,64 @@
           class="collapse navbar-collapse justify-content-between"
           id="navbarCollapse"
         >
-        <div class="navbar-nav font-weight-bold mx-auto py-0">
-          <a href="index.html" class="nav-item nav-link active">首頁</a>
-          <a href="about.html" class="nav-item nav-link">關於我們</a>
-          <a href="safe.html" class="nav-item nav-link">兒童網路素養</a>
-          <a href="parents.html" class="nav-item nav-link">家長專區</a>
-          <a href="contact.html" class="nav-item nav-link">消息中心</a>
+          <div class="navbar-nav font-weight-bold mx-auto py-0">
+            <a href="index.html" class="nav-item nav-link active">首頁</a>
+           
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-toggle="dropdown"
+                >關於我們</a
+              >
+              <div class="dropdown-menu rounded-0 m-0">
+                <a href="blog.html" class="dropdown-item">專題簡介</a>
+                <a href="single.html" class="dropdown-item">團隊介紹</a>
+              </div>
+            </div>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  >兒童網路素養</a
+                >
+                <div class="dropdown-menu rounded-0 m-0">
+                  <a href="網路霸凌.html" class="dropdown-item">網路霸凌</a>
+                  <a href="詐騙.html" class="dropdown-item">詐騙</a>
+                  <a href="性剝削.html" class="dropdown-item">性剝削</a>
+                  <a href="模仿.html" class="dropdown-item">模仿</a>
+                  <a href="認同感.html" class="dropdown-item">認同感</a>
 
-      </div>
-    </nav>
-  </div>
+                </div>
+              </div>  
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  >家長專區</a
+                >
+                <div class="dropdown-menu rounded-0 m-0">
+                  <a href="blog.html" class="dropdown-item">兒童常用平台介紹</a>
+                  <a href="single.html" class="dropdown-item">網路安全宣導</a>
+                </div>
+              </div>
+              <div class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  >時事新知</a
+                >
+                <div class="dropdown-menu rounded-0 m-0">
+                  <a href="法規政策.html" class="dropdown-item">法規政策</a>
+                  <a href="專家觀點.html" class="dropdown-item">專家觀點</a>
+                  <a href="兒少新聞議題.html" class="dropdown-item">兒少新聞議題</a>
+                </div>
+              </div>
+      </nav>
+    </div>
     <!-- Navbar End -->
 
     <!-- Header Start -->
@@ -89,110 +137,38 @@
     </div>
     <!-- Header End -->
 
-    <!-- Gallery Start -->
-    <div class="container-fluid pt-5 pb-3">
-      <div class="container">
-        <div class="text-center pb-2">
-          <p class="section-title px-5">
-            <span class="px-2">Our Gallery</span>
-          </p>
-          <h1 class="mb-4">Our Kids School Gallery</h1>
-        </div>
-        <div class="row">
-          <div class="col-12 text-center mb-2">
-            <ul class="list-inline mb-4" id="portfolio-flters">
-              <li class="btn btn-outline-primary m-1 active" data-filter="*">
-                All
-              </li>
-              <li class="btn btn-outline-primary m-1" data-filter=".first">
-                Playing
-              </li>
-              <li class="btn btn-outline-primary m-1" data-filter=".second">
-                Drawing
-              </li>
-              <li class="btn btn-outline-primary m-1" data-filter=".third">
-                Reading
-              </li>
-            </ul>
+    <!-- Card Start -->
+    <div id="qa-accordion">
+      <div class="accordion-item">
+        <button class="btn btn-link w-100" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+          <span>一、 「iWIN網路內容防護機構」的任務有哪些？</span>
+          <span class="float-right">
+            <i class="bi bi-chevron-down"></i>
+          </span>
+        </button>
+        <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#qa-accordion">
+          <div class="card-body">
+            <p>iWIN主要核心任務包含推動自律與宣導防護及處理爭議申訴，藉由擬定及推動業者自律標準、建立及推廣防護機制標準、宣導教育民眾、兒少正確觀念及受理民眾申訴並協助處理網路不當內容。</p>
           </div>
         </div>
-        <div class="row portfolio-container">
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
-            <div class="position-relative overflow-hidden mb-2">
-              <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="" />
-              <div
-                class="portfolio-btn bg-primary d-flex align-items-center justify-content-center"
-              >
-                <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
-                </a>
-              </div>
-            </div>
+      </div>
+      <div class="accordion-item">
+        <button class="btn btn-link w-100 collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+          <span>二、 「第二個折疊項目的標題」</span>
+          <span class="float-right">
+            <i class="bi bi-chevron-down"></i>
+          </span>
+        </button>
+        <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#qa-accordion">
+          <div class="card-body">
+            <p>第二個折疊項目的內容。</p>
           </div>
         </div>
       </div>
     </div>
-    <!-- Gallery End -->
+    
+    
+    <!-- Card End -->
 
     <!-- Footer Start -->
     <div
