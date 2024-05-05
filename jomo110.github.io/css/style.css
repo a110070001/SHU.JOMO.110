@@ -152,7 +152,7 @@ sup {
 }
 
 a {
-  color: #17a2b8;
+  color: #c07079;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2372,14 +2372,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #c07079;
+  border-color: #c07079;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #138496;
-  border-color: #117a8b;
+  background-color: #ae5978;
+  border-color: #ae5978;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2667,8 +2667,8 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #17a2b8;
-  border-color: #17a2b8;
+  color: #c07079;
+  border-color: #c07079;
 }
 
 .btn-outline-primary:hover {
@@ -6366,7 +6366,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #00394f !important;
+  background-color: #f3eccf!important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9766,13 +9766,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navbar-light .navbar-nav .nav-link {
   padding: 30px 15px;
-  color: #00394f;
+  color: #ae5978;
   outline: none;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #17a2b8;
+  color: #ae5978;
 }
 
 @media (max-width: 991.98px) {
