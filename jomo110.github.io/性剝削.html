@@ -119,6 +119,55 @@
         </nav>
       </div>
       <!-- Navbar End -->
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Video Player</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            .container {
+                text-align: center;
+                margin-top: 50px;
+            }
+    
+            #video {
+                width: 80%; /* 調整影片寬度 */
+                max-width: 800px; /* 最大寬度 */
+                height: auto; /* 使高度自動調整以保持影片比例 */
+                margin: 0 auto; /* 將影片置中 */
+            }
+    
+            .controls button {
+                margin: 10px;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+    
+            .controls button:focus {
+                outline: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Video Player</h1>
+            <select id="videoSelect">
+                <option value="video1.mp4">Video 1</option>
+                <option value="video2.mp4">Video 2</option>
+                <option value="video3.mp4">Video 3</option>
+            </select>
+            <video id="video" controls>
+                <source id="videoSource" src="video1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="controls">
+                <button id="playBtn">Play</button>
+                <button id="pauseBtn">Pause</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
 
 
 
